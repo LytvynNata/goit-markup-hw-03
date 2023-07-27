@@ -1,0 +1,143 @@
+/* ========Variables======= */
+:root{
+    --primary-accent-color: #404BBF;
+--secondary-accent-color: #31D0AA;
+}
+/* ========/Variables======= */
+
+/* =========Common Styles====== */
+.list{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ========/Common Styles====== */
+/* =======HEADER======== */
+.logo{
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+/* text-align: left; */
+color:  #2E2F42;
+}
+
+.logo:hover{
+color: var(--primary-accent-color)
+}
+.logo span{
+    color: var(--primary-accent-color);
+}
+
+.menu-link{
+/* text-align: left; */
+color:  #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+color: var(--primary-accent-color);
+}
+
+.link-contacts{
+font-style: normal;
+font-weight: 400;
+/* text-align: left; */
+
+color: #434455;
+}
+
+.link-contacts:hover,
+.link-contacts:focus{
+color: #404BBF;
+}
+
+/* =======/HEADER======== */
+
+/* ==========HERO======== */
+.hero-title{
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+/* text-align: center; */
+}
+
+.hero-button{
+letter-spacing: 0.04em;
+/* text-align: left; */
+color: #ffffff;
+background-color: #4D5AE5;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: var(--primary-accent-color);
+}
+/* ==========/HERO======== */
+
+/* ========Our Benefits======== */
+.benefits-title{
+font-size: 20px;
+line-height: 1.2;
+/* text-align: left; */
+
+color: #2E2F42;
+}
+
+.benefits-text{
+font-weight: 400;
+/* text-align: left; */
+}
+
+/* ========/Our Benefits======== */
+
+/* =========What we are doing======= */
+.secondary-title{
+font-size: 36px;
+/* font-weight: 700; */
+line-height: 1.11;
+/* text-align: center; */
+
+color: #2E2F42;
+}
+/* =========/What we are doing======= */
+
+/* =============Our Team========== */
+.name{
+font-size: 20px;
+line-height: 1.2;
+/* text-align: center; */
+color: #2E2F42;
+}
+
+.team-text{
+font-weight: 400;
+/* text-align: center; */
+}
+/* =============/Our Team========== */
+
+/* ==============Footer================ */
+.footer-slogan{
+font-weight: 400;
+/* text-align: left; */
+color: #F4F4FD;
+}
+/* ==============/Footer=============== */
