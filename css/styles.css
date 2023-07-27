@@ -26,8 +26,8 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 /* ========/Common Styles====== */
+
 /* =======HEADER======== */
 .logo{
 font-family: 'Raleway', sans-serif;
@@ -128,7 +128,7 @@ line-height: 1.2;
 color: #2E2F42;
 }
 
-.team-text{
+.sub-text{
 font-weight: 400;
 /* text-align: center; */
 }
@@ -141,3 +141,19 @@ font-weight: 400;
 color: #F4F4FD;
 }
 /* ==============/Footer=============== */
+
+/* ===============Portfolio======================= */
+.filter-button{
+    letter-spacing: 0.04em;
+    /* text-align: center; */
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+}
+
+.filter-button:hover,
+.filter-button:focus{
+    color: #ffffff;
+    background-color: var(--primary-accent-color);
+}
+
+/* ===============/Portfolio======================= */
