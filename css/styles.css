@@ -16,6 +16,35 @@
 /* ========/Variables======= */
 
 /* =========Common Styles====== */
+
+button{
+    cursor: pointer;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+ul, 
+ol{
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+
 .list{
     list-style-type: none;
 }
@@ -24,23 +53,10 @@
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-	margin: 0;
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-
-ul, ol {
-	margin: 0;
-	padding: 0;
-}
-
-p{
-    margin: 0;
-}
-
-button{
-    cursor: pointer;
-}
-
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -51,9 +67,19 @@ body{
 
     background-color: var(--white-background-color);
 }
+
+.container{
+    width: 1158px;
+}
+
 /* ========/Common Styles====== */
 
 /* =======HEADER======== */
+
+.container.header{
+    display: flex;
+}
+
 .logo-header{
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
@@ -76,7 +102,9 @@ color: var(--primary-brand-color);
 color: var(--press-state-color);
 }
 
-
+.menu.list{
+    display: flex;
+}
 
 .menu-link{
 /* text-align: left; */
@@ -90,6 +118,10 @@ color: var(--press-state-color);
 
 .contacts{
     font-style: normal;
+}
+
+.contacts-list{
+    display: flex;
 }
 
 .link-contacts{
@@ -107,6 +139,11 @@ color: #404BBF;
 /* =======/HEADER======== */
 
 /* ==========HERO======== */
+.section.hero{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 60px;
+}
 .hero{
    background-color:var(--hero-background-color) ;
 }
@@ -148,6 +185,13 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
+.benefits-list{
+    display: flex;
+}
+
+.benefits-list-item{
+    width: 264px;
+}
 .benefits-text{
 font-weight: 400;
 /* text-align: left; */
@@ -165,9 +209,19 @@ text-transform: capitalize;
 
 color: #2E2F42;
 }
+
+.job-list{
+    display: flex;
+    column-gap: 24px;
+}
 /* =========/What we are doing======= */
 
 /* =============Our Team========== */
+.section.team{
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 60px;
+}
 .team{
     background-color: var(--button-background-color);
 }
@@ -178,6 +232,10 @@ color: #2E2F42;
     letter-spacing: 0.02em;
 }
 
+.list-team{
+    display: flex;
+    column-gap: 24px;
+}
 .list-item-team{
     background-color: var(--white-background-color);
 }
@@ -227,6 +285,14 @@ color: var(--button-background-color);
 /* ==============/Footer=============== */
 
 /* ===============Portfolio======================= */
+.section.projects{
+    padding-top: 96px;
+}
+
+.buttons-list{
+    display: flex;
+}
+
 .filter-button{
     font-family: inherit;
     font-weight: 500;
@@ -242,6 +308,12 @@ color: var(--button-background-color);
 .filter-button:focus{
     color: #ffffff;
     background-color: var(--press-state-color);
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
 
 .card-name{
