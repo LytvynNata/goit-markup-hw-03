@@ -102,6 +102,8 @@ margin-right: auto;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--hero-background-color);
+
+    margin-bottom: 8px;
     }
 /* ========/Common Styles====== */
 
@@ -413,10 +415,6 @@ max-width: 264px;
 .card.card-info{
     padding-left: 16px;
     padding-right: 16px;
-}
-
-.name.card-name{
-    margin-bottom: 8px;
 }
 
 .card-name{
