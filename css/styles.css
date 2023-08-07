@@ -109,8 +109,6 @@ margin-right: auto;
 /* =======HEADER======== */
 .page-header{
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .container.header{
@@ -150,6 +148,8 @@ color: var(--press-state-color);
 .menu.list{
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-link{
@@ -169,6 +169,8 @@ color: var(--press-state-color);
 .contacts-list{
     display: flex;
    gap: 40px;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 
 .link-contacts{
