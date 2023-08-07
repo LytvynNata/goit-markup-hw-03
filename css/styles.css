@@ -110,6 +110,7 @@ margin-right: auto;
 .page-header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container.header{
@@ -148,7 +149,7 @@ color: var(--press-state-color);
 
 .menu.list{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .menu-link{
@@ -167,7 +168,7 @@ color: var(--press-state-color);
 
 .contacts-list{
     display: flex;
-    column-gap: 40px;
+   gap: 40px;
 }
 
 .link-contacts{
