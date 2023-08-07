@@ -154,6 +154,7 @@ color: var(--press-state-color);
 .menu-link{
 /* text-align: left; */
 color:  var(--hero-background-color);
+padding: 24px 0;
 }
 
 .menu-link:hover,
